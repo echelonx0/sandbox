@@ -5,7 +5,7 @@
 export const environment = {
   production: false
 
-  config 
+  let's try this again
 };
 
 /*
