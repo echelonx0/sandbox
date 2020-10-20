@@ -18,12 +18,18 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { ComplaintComponent } from './components/complaint/complaint.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ReportsComponent } from './components/reports/reports.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    CountsComponent
+    CountsComponent,
+    ComplaintComponent,
+    DashboardComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
