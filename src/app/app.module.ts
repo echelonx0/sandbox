@@ -8,6 +8,8 @@ import { CountsComponent } from './components/counts/counts.component';
 
 import { environment } from '../environments/environment';
 
+import { OwlModule } from 'ngx-owl-carousel';
+
 
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 
@@ -37,6 +39,7 @@ import { ReportsComponent } from './components/reports/reports.component';
     FlashMessagesModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
+    OwlModule,
      // 3. Initialize
      AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule, // firestore
