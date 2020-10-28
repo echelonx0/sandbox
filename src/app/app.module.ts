@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CountsComponent } from './components/counts/counts.component';
 
-import { environment } from '../environments/environment';
 
 import { OwlModule } from 'ngx-owl-carousel';
 
@@ -25,6 +24,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ReportsComponent } from './components/reports/reports.component';
 import { ViolationsComponent } from './components/violations/violations.component';
 
+import { IndexComponent } from './components/index/index.component';
+import { environment } from 'src/environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import { ViolationsComponent } from './components/violations/violations.componen
     ComplaintComponent,
     DashboardComponent,
     ReportsComponent,
-    ViolationsComponent
+    ViolationsComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
