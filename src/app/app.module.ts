@@ -23,6 +23,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { ComplaintComponent } from './components/complaint/complaint.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ReportsComponent } from './components/reports/reports.component';
+import { ViolationsComponent } from './components/violations/violations.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ReportsComponent } from './components/reports/reports.component';
     CountsComponent,
     ComplaintComponent,
     DashboardComponent,
-    ReportsComponent
+    ReportsComponent,
+    ViolationsComponent
   ],
   imports: [
     BrowserModule,
