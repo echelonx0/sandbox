@@ -26,6 +26,7 @@ import { ViolationsComponent } from './components/violations/violations.componen
 
 import { IndexComponent } from './components/index/index.component';
 import { environment } from 'src/environments/environment';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { environment } from 'src/environments/environment';
     DashboardComponent,
     ReportsComponent,
     ViolationsComponent,
-    IndexComponent
+    IndexComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

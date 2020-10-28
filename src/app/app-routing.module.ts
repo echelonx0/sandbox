@@ -9,6 +9,7 @@ import { ViolationsComponent } from './components/violations/violations.componen
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'report', component: ComplaintComponent},
+  {path: 'violations', component: ViolationsComponent},
   {path: 'dashboard', component: DashboardComponent},
 ];
 
